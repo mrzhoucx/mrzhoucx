@@ -16,6 +16,14 @@ ZHOU
 # 喜欢折腾、学习和记录，平时会做一些小项目。
 ```
 
+## 🖼 必应每日一图 · Bing Daily
+
+<!-- BING_START -->
+<div align="center">
+  <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
+</div>
+<!-- BING_END -->
+
 ## 📊 GitHub Stats
 
 <div align="center">
