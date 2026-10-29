@@ -1,0 +1,48 @@
+name: Update Bing daily image
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch Bing image and update README
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, re, urllib.request
+          api = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=zh-CN"
+          data = json.load(urllib.request.urlopen(api))
+          img = data["images"][0]
+          url = "https://www.bing.com" + img["url"]
+          title = img.get("title", "")
+          copyright_text = img.get("copyright", "")
+          startdate = img.get("startdate", "")
+          os.makedirs("assets", exist_ok=True)
+          urllib.request.urlretrieve(url, "assets/bing-daily.jpg")
+          block = ("<!-- BING_START -->\n"
+                   "<div align=\"center\">\n"
+                   "  <img src=\"assets/bing-daily.jpg\" alt=\"Bing daily image\" width=\"100%\"/>\n"
+                   "  <br/><sub><b>" + title + "</b> · " + copyright_text + " · " + startdate + "</sub>\n"
+                   "</div>\n"
+                   "<!-- BING_END -->")
+          readme = open("README.md", encoding="utf-8").read()
+          new_readme, n = re.subn(r"<!-- BING_START -->.*?<!-- BING_END -->", lambda m: block, readme, flags=re.S)
+          assert n == 1, "BING markers not found in README"
+          open("README.md", "w", encoding="utf-8").write(new_readme)
+          print("Bing daily updated:", startdate, title)
+          PYEOF
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/bing-daily.jpg README.md
+          git diff --cached --quiet || git commit -m "Update Bing daily image"
+          git push
