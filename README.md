@@ -1,3 +1,13 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=190&section=header&text=ZHOU&fontSize=74&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20%C2%B7%20Self-hosting%20%C2%B7%20Open%20Source&descSize=16&descAlignY=56"/>
+
+<a href="https://github.com/mrzhoucx"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=900&color=38BDF8&center=true&vCenter=true&width=600&lines=%24%20whoami%20%3A%20ZHOU;AI%20%26%20LLM%20tinkerer;Self-hosting%20%26%20VPS%20explorer;Small%20projects%2C%20real%20commits" alt="typing"/></a>
+
+<img src="https://komarev.com/ghpvc/?username=mrzhoucx&label=Profile%20views&color=0e75b6&style=flat-square"/>
+
+</div>
+
 ```bash
 $ whoami
 ZHOU
@@ -6,8 +16,39 @@ ZHOU
 # 喜欢折腾、学习和记录，平时会做一些小项目。
 ```
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrzhoucx&show_icons=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mrzhoucx&layout=compact)
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mrzhoucx&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrzhoucx&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=mrzhoucx&theme=tokyonight&hide_border=true"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mrzhoucx&theme=tokyo-night&hide_border=true"/>
+</div>
+
+## 🛠 Tools & Tech
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</div>
+
+```yaml
+tools:
+  - Node.js
+  - Python
+  - Linux
+  - VPS / Self-hosting
+  - Git
+```
 
 ## // 兴趣 Interests
 
@@ -37,17 +78,6 @@ ZHOU
 
 ```text
 > 喜欢把想法做成实用的小项目，边做边学。
-```
-
-## // Tools & Tech
-
-```yaml
-tools:
-  - Node.js
-  - Python
-  - Linux
-  - VPS / Self-hosting
-  - Git
 ```
 
 ## // Currently
@@ -92,3 +122,7 @@ $ star stablyai/orca # Working with a fleet of agents
 $ star pbakaus/impeccable # Design guidance for AI coding agents
 $ star Nutlope/hallmark # Anti-AI-slop design skill for Claude Code, Cursor, and Codex
 ```
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=110&section=footer"/>
+</div>
