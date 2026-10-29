@@ -123,6 +123,16 @@ $ star pbakaus/impeccable # Design guidance for AI coding agents
 $ star Nutlope/hallmark # Anti-AI-slop design skill for Claude Code, Cursor, and Codex
 ```
 
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrzhoucx/mrzhoucx/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrzhoucx/mrzhoucx/output/github-contribution-grid-snake.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/mrzhoucx/mrzhoucx/output/github-contribution-grid-snake.svg"/>
+  </picture>
+</div>
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=110&section=footer"/>
 </div>
