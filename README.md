@@ -21,6 +21,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
+  <br/><sub><b>薄雾邂逅千年时光</b> · 立石，埃夫伯里，威尔特郡，英格兰 (© George W Johnson/Getty Images) · 20261028</sub>
 </div>
 <!-- BING_END -->
 
