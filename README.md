@@ -21,7 +21,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>展翅高飞的时节</b> · 沙丘鹤，博斯克德尔阿帕奇国家野生动物保护区，新墨西哥州，美国 (© Terry St.Louis/Getty Images) · 20261029</sub>
+  <br/><sub><b>往昔帝国的幽影</b> · 圣巴尔多禄茂教堂，法兰克福，德国 (© AlxeyPnferov/Getty Images) · 20261030</sub>
 </div>
 <!-- BING_END -->
 
